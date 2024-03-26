@@ -16,3 +16,6 @@ Although it may look difficult, setting up the circuit is quite easy and doesn't
 
 ## Program
 The code for this script is in the file `app.py` in the root directory. Simply download and upload this file to your pico for it to start! If you want this code to run whenever the pico gets powered on, rename the file to either `main.py` or `boot.py`, however `boot.py` will usually run first.
+
+## How to play
+When run, the program will wait for you to enter a base-3 binary code using hte blue buttons and submit your guess with the green button. If guessed correctly, the white button will light up for a second and the machine will be reset. If not, the red button will light up and the cycle will repeat.
